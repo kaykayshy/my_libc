@@ -3,7 +3,7 @@
 size_t
 my_strlen(const char *s)
 {
-	const char	*p;
+	const char *p;
 
 	p = s;
 	while (*p != '\0')
