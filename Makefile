@@ -1,9 +1,7 @@
 NAME	= my_libc.a
 CC	= cc
 CFLAGS	= -Wall -Wextra -Werror
-SRCS	= my_strlen.c \
-	  my_strnlen.c \
-	  my_memset.c
+SRCS	= my_strlen.c
 OBJS	= $(SRCS:.c=.o)
 
 all: $(NAME)
